@@ -1,0 +1,25 @@
+.error-message-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff5252;
+    color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  
+  .error-message-text {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    .error-message-container {
+      width: 100%;
+    }
+  }
+  
