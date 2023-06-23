@@ -1,0 +1,46 @@
+.donation-history-container {
+    padding: 4rem 1.5rem;
+    min-height: 100vh;
+  }
+  
+  .donation-history-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .donation-history-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .donation-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .donation-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .donation-amount {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .donation-date {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  @media (max-width: 768px) {
+    .donation-history-list {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+  }
+  
