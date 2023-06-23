@@ -1,0 +1,30 @@
+.not-found-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 76vh;
+    background: linear-gradient(to bottom right, #fff, #638ef0);
+  }
+  
+  .not-found-content {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .not-found-title {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .not-found-subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .not-found-button {
+    margin-top: 20px;
+    padding: 12px 24px;
+  }
+  
