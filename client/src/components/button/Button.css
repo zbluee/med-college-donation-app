@@ -1,0 +1,50 @@
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+  }
+
+.button:hover{
+  background-color:#2a54a2;
+}
+  
+  .contained {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  .outlined {
+    background-color: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+  }
+  
+  .primary {
+    /* Customize primary color styles */
+    background-color: #007bff;
+  }
+  
+  .secondary {
+    /* Customize secondary color styles */
+    background-color: #4caf50;
+  }
+  
+  .small {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  
+  .medium {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+  
+  .large {
+    font-size: 18px;
+    padding: 16px 32px;
+  }
+  
