@@ -27,6 +27,7 @@
   }
   
   .about-us-text {
+    text-align:justify;
     font-size: 18px;
     line-height: 1.6;
   }
@@ -36,6 +37,15 @@
     height: auto;
     margin-top: 20px;
     border-radius: 8px;
+  }
+  .about-link{
+    text-decoration: none;
+    color: inherit;
+  }
+  .about-foot{
+    
+    text-align: center;
+    padding: 2rem 0 2rem 0;
   }
   
   @media (min-width: 768px) {
@@ -52,5 +62,10 @@
       margin-top: 0;
       margin-left: 40px;
     }
+    .about-link{
+      text-decoration: none;
+      color: inherit;
+    }
+  
   }
   
