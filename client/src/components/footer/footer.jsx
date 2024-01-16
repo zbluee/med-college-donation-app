@@ -14,12 +14,12 @@ function Footer() {
             rel="noopener noreferrer"
             className="footer-link"
           >
-            Ayne Kulu
+            Daniel Esubalew Dessie
           </a>
         </p>
         <p className="footer-text">
           Email : 
-          <a href="mailto:danielesubalew@gmail.com" className="footer-link"> danielesubalew@gmail.com</a>
+          <a href="mailto:dessiedaniel25@gmail.com" className="footer-link"> dessiedaniel25@gmail.com</a>
         </p>
       </div>
     </footer>
